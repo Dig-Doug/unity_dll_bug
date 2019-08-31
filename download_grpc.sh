@@ -5,7 +5,7 @@ GRPC_ARCHIVE="/tmp/grpc_unity.zip"
 INSTALL_DIR="./Assets/Plugins/grpc"
 
 rm -rf "$INSTALL_DIR"
-mkdir -p "INSTALL_DIR"
+mkdir "Assets/Plugins"
 
 wget "$GRPC_URL" -O "$GRPC_ARCHIVE"
 unzip "$GRPC_ARCHIVE" -d "$INSTALL_DIR"
